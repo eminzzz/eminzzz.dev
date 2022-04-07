@@ -1,0 +1,29 @@
+{
+  "name": "eminzzz.dev",
+  "version": "0.0.1",
+  "description": "My own website ;)",
+  "source": "./src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "watch": "npx parcel",
+    "build": "npx parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eminzzz/eminzzz.dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eminzzz/eminzzz.dev/issues"
+  },
+  "homepage": "https://github.com/eminzzz/eminzzz.dev#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
