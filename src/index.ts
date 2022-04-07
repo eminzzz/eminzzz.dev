@@ -11,5 +11,15 @@ import 'bootstrap/dist/css/bootstrap.min.css'
         return bgColors[randomIndex]
     }
 
-    document.body.style.backgroundColor = randomBgColor()
+    const setRandomBgColor = (): void => {
+        document.body.style.backgroundColor = randomBgColor()
+    }
+
+    setInterval(() => {
+        setRandomBgColor()
+    }, 5000)
+
+    setRandomBgColor()
+
+
 })();
